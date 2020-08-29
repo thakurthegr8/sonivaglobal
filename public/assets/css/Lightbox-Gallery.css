@@ -1,0 +1,223 @@
+.photo-gallery {
+  color: #313437;
+  background-color: #fff;
+}
+
+.photo-gallery p {
+  color: #7d8285;
+}
+
+.photo-gallery h2 {
+  font-weight: bold;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  color: inherit;
+}
+
+@media (max-width:767px) {
+  .photo-gallery h2 {
+    margin-bottom: 25px;
+    padding-top: 25px;
+    font-size: 24px;
+  }
+}
+
+.photo-gallery .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto 40px;
+}
+
+.photo-gallery .intro p {
+  margin-bottom: 0;
+}
+
+.photo-gallery .photos {
+  padding-bottom: 20px;
+}
+
+.photo-gallery .item {
+  padding-bottom: 30px;
+}
+
+.col-xl-12.case-studies-caption-container {
+  padding-top: 48px;
+  padding-bottom: 20px;
+}
+
+.col-xl-12.case-studies-caption-container h1 {
+  font-family: product sans;
+  color: rgb(27,38,65);
+  font-weight: bold;
+}
+
+.row.people.case-studies-row {
+  padding-bottom: 62px;
+}
+
+.col-md-3.col-xl-2.milestone-des-container {
+  padding-top: 31px;
+  text-align: center;
+  color: rgb(27,38,65);
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.col-md-3.col-xl-2.milestone-des-container p {
+  margin-bottom: 0;
+  font-family: product sans;
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+}
+
+.col-md-3.col-xl-2.milestone-des-container h1 {
+  font-family: product sans;
+  font-size: 55px;
+  font-weight: bold;
+}
+
+.row.milestone-container {
+  padding-top: 62px;
+  padding-bottom: 62px;
+}
+
+.col-md-4.col-xl-12.customer-feedback-caption-container {
+  padding-top: 48px;
+  padding-bottom: 20px;
+}
+
+.col-md-4.col-xl-12.customer-feedback-caption-container h1 {
+  color: #fff;
+  font-family: product sans;
+  font-weight: bold;
+}
+
+.col-md-4.col-xl-12.carousel-holder {
+  padding-top: 20px;
+  padding-bottom: 62px;
+}
+
+.card {
+  color: #171b2b;
+  font-family: circular std book;
+  padding-top: 0;
+  /*padding-bottom: 58px;*/
+  margin-top: 20px;
+  border: 2px solid rgb(23,27,43);
+  margin-bottom: 20px;
+  /*border-radius: 20px;*/
+  overflow: hidden;
+}
+
+.row.blogs-row {
+  padding-top: 99px;
+  padding-bottom: 99px;
+}
+
+.col-md-3.blogs-caption-container {
+  padding-top: 20px;
+}
+
+.col-md-3.blogs-caption-container h1 {
+  font-family: product sans;
+  font-weight: bold;
+  color: rgb(27,38,65);
+  font-size: 56px;
+}
+
+.col-md-3.blogs-caption-container button {
+  padding: 12px;
+  border-radius: 17px;
+  font-size: 17px;
+  margin-top: 21px;
+  background-color: rgb(222,56,96);
+  font-weight: bold;
+  font-family: product sans;
+}
+
+.col-md-3.blogs-small-sections {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0px 3px 16px rgba(0,0,0,0.17);
+  margin-left: 13px;
+  margin-right: 2px;
+}
+
+.col-md-3.blogs-small-sections span {
+  color: #6C6C6C;
+  font-family: circular std book;
+}
+
+.col-md-3.blogs-small-sections h1 {
+  font-family: product sans;
+  font-size: 29px;
+  /*line-height: 32px;*/
+  font-weight: bold;
+  color: rgb(27,38,65);
+}
+
+.col-md-3.blogs-small-sections p {
+  font-size: 20px;
+  font-family: circular std book;
+  margin-bottom: 0px;
+}
+
+.col-md-3.blogs-small-sections a {
+  color: rgb(222,56,96);
+  font-family: circular std book;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.col-md-6.contact-small-sections {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 24px;
+}
+
+.col-md-6.contact-small-sections h1 {
+  color: #fff;
+  font-family: product sans;
+  font-weight: bold;
+}
+
+.col-md-6.contact-small-sections p {
+  color: #fff;
+  font-family: circular std book;
+}
+
+.col-md-6.contact-small-sections button {
+  padding: 21px;
+  font-size: 18px;
+  border-radius: 17px;
+  font-weight: bold;
+  background-color: rgb(222,56,96);
+  border: 1px solid rgb(222,56,96);
+}
+
+.col.global-presence-caption-container {
+  padding-top: 51px;
+}
+
+.col-md-12.global-presenge-caption-container {
+  padding-top: 62px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.col-md-12.global-presenge-caption-container h1 {
+  color: rgb(27,38,65);
+  font-family: product sans;
+  font-weight: bold;
+}
+
+.col.col-md-12.map-container {
+  text-align: center;
+}
+

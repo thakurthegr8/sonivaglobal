@@ -1,0 +1,459 @@
+.footer-dark {
+  padding: 50px 0;
+  color: #f0f9ff;
+  background-color: #1b2641;
+}
+
+.footer-dark h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #fff;
+}
+
+.footer-dark ul {
+  padding: 0;
+  list-style: none;
+  line-height: 1.6;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.footer-dark ul a {
+  color: #fff;
+  text-decoration: none;
+  opacity: 1;
+  font-family: circular std book;
+  font-weight: 100;
+  font-size: 15px;
+}
+
+.footer-dark ul a:hover {
+  opacity: 0.8;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item:not(.social) {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+}
+
+.footer-dark .item.text {
+  margin-bottom: 36px;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item.text {
+    margin-bottom: 0;
+  }
+}
+
+.footer-dark .item.text p {
+  opacity: 1.0;
+  margin-bottom: 9px;
+}
+
+.footer-dark .item.social {
+  text-align: center;
+}
+
+@media (max-width:991px) {
+  .footer-dark .item.social {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+.footer-dark .item.social > a {
+  font-size: 20px;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  /*box-shadow: 0 0 0 1px rgba(255,255,255,0.4);*/
+  margin: 0 8px;
+  color: #fff;
+  opacity: 0.75;
+}
+
+.footer-dark .item.social > a:hover {
+  opacity: 0.9;
+}
+
+.footer-dark .copyright {
+  text-align: center;
+  padding-top: 24px;
+  opacity: 0.3;
+  font-size: 13px;
+  margin-bottom: 0;
+}
+
+footer ul li a {
+  color: #fff;
+  font-weight: bold;
+}
+
+.footer-dark p {
+  font-size: 17px;
+  text-overflow: ellipsis;
+}
+
+.col.col-md-12.career-intro {
+  display: flex;
+  height: 81vh;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/careers-bg.png);
+  background-size: contain;
+  background-attachment: fixed;
+}
+
+.nav-item li i {
+  color: #fff;
+}
+
+.details-main-heading {
+  font-family: product sans;
+  font-weight: bold;
+  text-align: center;
+  color: #171B2B;
+}
+
+.details-sub-heading {
+  font-family: product sans;
+  font-weight: bold;
+  font-size: 31px;
+  color: #171B2B;
+}
+
+.details-description {
+  font-family: circular std book;
+}
+
+.col.col-md-12.sub-details {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.card.custom-accordion-bar {
+  background: #fff;
+  /*border: 1px solid rgb(23,27,43);*/
+  color: rgb(23,27,43);
+}
+
+.mb-0 a {
+  color: rgb(23,27,43);
+  font-family: circular std book;
+  font-weight: initial;
+}
+
+.contact-text-input-field.details-sub-heading {
+  font-size: 22px;
+}
+
+.contact-form-field {
+  padding: 15px;
+  border-radius: 21px;
+  border: 2px solid rgb(35,39,54);
+  font-family: circular std book;
+}
+
+.col.col-md-6.field-small-sections {
+  display: flex;
+  flex-flow: column;
+  padding-left: 9%;
+  padding-right: 5%;
+  padding-top: 3%;
+}
+
+.contact-form-field:focus {
+  border: 0px;
+}
+
+.btn.btn-primary.upload-file-btn {
+  flex: 0;
+}
+
+.btn.btn-primary.upload-file-btn {
+  padding: 12px;
+  border-radius: 7px;
+  font-family: circular std book;
+  background: rgb(23,27,43);
+  font-size: 18px;
+}
+
+.btn.btn-primary.upload-file-btn:active {
+  color: rgb(23,27,43);
+  background: #fff;
+  box-shadow: 0px 3px 16px #000;
+}
+
+.btn.btn-primary.submit-btn-for-form-details {
+  padding: 11px 26px 11px 26px;
+  border-radius: 7px;
+  font-size: 18px;
+  background: #E12854;
+  font-family: circular std book;
+}
+
+.btn.btn-primary.submit-btn-for-form-details:active {
+  background: rgb(23,27,43);
+}
+
+@keyframes jumbotronanime {
+  0% {
+    background: linear-gradient(39deg,#1b2641,#ffff0052,#009688);
+  }
+  25% {
+    background: linear-gradient(89deg,#1b2641,#ffff0052,#009688);
+  }
+  50% {
+    background: linear-gradient(139deg,#1b2641,#ffff0052,#009688);
+  }
+  75% {
+    background: linear-gradient(189deg,#1b2641,#ffff0052,#009688);
+  }
+  100% {
+    background: linear-gradient(249deg,#1b2641,#ffff0052,#009688);
+  }
+}
+
+.nav-link i {
+  color: #fff;
+}
+
+.col.col-md-12.accordion-details-container {
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.accordion-detail-label {
+  font-weight: bold;
+  font-size: 20px;
+  color: #1b2641;
+  font-family: circular std book;
+}
+
+.accordion-detail {
+  font-size: 20px;
+  font-family: circular std book;
+}
+
+.list-group-item span {
+  font-size: 20px;
+  font-family: circular std book;
+}
+
+.card-header {
+  background-color: #fff;
+}
+
+.dropdown-toggle.custom-toggle {
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(27,38,65);
+}
+
+.fa.fa-heartbeat {
+  color: red;
+}
+
+.fas.fa-globe-asia {
+  color: rgb(225,40,84);
+}
+
+.jumbotron.custom-jumbotron {
+  padding-top: 23vh;
+  height: 81vh;
+  background: url(../img/contact-us-bg.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jumbotron.custom-jumbotron h1 {
+  font-weight: bold;
+  color: #fff;
+  font-family: product sans black;
+  font-size: 85px;
+  text-align: center;
+}
+
+.col-md-6.about-description-small-sections h1 {
+  font-family: product sans;
+  font-weight: bold;
+  color: #1B2641;
+  text-align: center;
+}
+
+.col-md-6.about-description-small-sections p {
+  font-family: circular std book;
+  font-size: 19px;
+  color: #1B2641;
+  text-align: center;
+}
+
+p {
+}
+
+.col.about-description-small-sections p {
+  font-family: circular std book;
+  font-size: 19px;
+  color: #1B2641;
+}
+
+.nav-item i {
+  color: rgb(75,74,74);
+}
+
+.navbar-light .navbar-nav .nav-link {
+  background: rgb(218,216,216);
+  border-radius: 60px;
+}
+
+.navbar-light .navbar-nav .nav-link span {
+  font-size: 17px;
+  display: inline-flex;
+}
+
+.navbar-brand i {
+  color: rgb(27,38,65);
+}
+
+.col-xl-7.field-small-sections.contact-form {
+  padding-left: 11%;
+  padding-right: 11%;
+  display: flex;
+  flex-flow: column;
+  padding-top: 4vh;
+}
+
+.contact-form-field.contact-us {
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.contact-text-input-field.details-sub-heading.contact-form {
+  margin-top: 6%;
+  margin-bottom: 2%;
+}
+
+.btn.btn-primary.contact-form-btn {
+  padding: 13px;
+  margin-top: 20px;
+  border-radius: 11px;
+  background: rgb(245,0,87);
+  font-family: product sans;
+  font-weight: bold;
+}
+
+.card.custom-card {
+  border: 1px solid transparent;
+  box-shadow: 0px 3px 16px rgba(0,0,0,0.22);
+  border-radius: 13px;
+}
+
+.col-xl-12.sub-heading-container h1 {
+  font-size: 28px;
+  font-weight: bold;
+  color: rgb(27,38,65);
+  font-family: product sans;
+}
+
+.card-title.custom {
+  font-weight: bold;
+  font-family: product sans;
+  color: rgb(39,49,75);
+  padding-top: 20px;
+}
+
+.card-body span {
+  font-size: 20px;
+  font-family: circular std book;
+}
+
+.card-body img {
+  width: 100%;
+  border-radius: 14px;
+}
+
+.card-title.custom.small {
+  padding-top: 0px;
+  font-size: 1.5rem;
+}
+
+.custom-jumbotron {
+  padding-top: 33vh;
+  padding-bottom: 42vh;
+  text-align: center;
+  background-image: url(../img/our-solutions-pg-bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.custom-jumbotron h1 {
+  font-weight: bold;
+  font-family: product sans;
+  font-size: 74px;
+  color: #fff;
+  padding-bottom: 25px;
+}
+
+.card.our-solutions-custom-card {
+  border: 1px solid transparent;
+  box-shadow: 0px 3px 16px rgba(0,0,0,0.17);
+  text-align: center;
+  border-radius: 17px;
+  height: inherit;
+}
+
+.card-title.our-solutions-custom {
+}
+
+.card-title.our-solutions-custom-heading {
+  text-align: center;
+  font-weight: bold;
+  font-family: product sans;
+}
+
+.card.our-solutions-custom-card h4 {
+  text-align: center;
+  font-weight: bold;
+  font-family: product sans;
+  padding-top: 15px;
+  color: rgb(27,38,65);
+}
+
+.card.our-solutions-custom-card h6 {
+  color: #000;
+}
+
+.card.our-solutions-custom-card p {
+  font-family: circular std book;
+  line-height: 20px;
+  text-align: center;
+}
+
+.card.our-solutions-custom-card a {
+  text-align: center;
+  background: rgb(225,40,84);
+  color: #fff;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left: 24%;
+  padding-right: 24%;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.navbar.navbar-light.navbar-expand-md.navigation-clean {
+  box-shadow: 0px 1px 16px rgba(0,0,0,0.17);
+}
+

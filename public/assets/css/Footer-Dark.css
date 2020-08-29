@@ -1,0 +1,228 @@
+.footer-dark {
+  padding: 50px 0;
+  color: #f0f9ff;
+  background-color: #1b2641;
+}
+
+.footer-dark h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #fff;
+}
+
+.footer-dark ul {
+  padding: 0;
+  list-style: none;
+  line-height: 1.6;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.footer-dark ul a {
+  color: #fff;
+  text-decoration: none;
+  opacity: 1;
+  font-family: circular std book;
+  font-weight: 100;
+  font-size: 15px;
+}
+
+.footer-dark ul a:hover {
+  opacity: 0.8;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item:not(.social) {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+}
+
+.footer-dark .item.text {
+  margin-bottom: 36px;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item.text {
+    margin-bottom: 0;
+  }
+}
+
+.footer-dark .item.text p {
+  opacity: 1.0;
+  margin-bottom: 9px;
+}
+
+.footer-dark .item.social {
+  text-align: center;
+}
+
+@media (max-width:991px) {
+  .footer-dark .item.social {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+.footer-dark .item.social > a {
+  font-size: 20px;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  /*box-shadow: 0 0 0 1px rgba(255,255,255,0.4);*/
+  margin: 0 8px;
+  color: #fff;
+  opacity: 0.75;
+}
+
+.footer-dark .item.social > a:hover {
+  opacity: 0.9;
+}
+
+.footer-dark .copyright {
+  text-align: center;
+  padding-top: 24px;
+  opacity: 0.3;
+  font-size: 13px;
+  margin-bottom: 0;
+}
+
+footer ul li a {
+  color: #fff;
+  font-weight: bold;
+}
+
+.footer-dark p {
+  font-size: 17px;
+  text-overflow: ellipsis;
+}
+
+.col.col-md-12.career-intro {
+  display: flex;
+  height: 81vh;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../assets/img/careers-bg.png);
+  background-size: contain;
+  background-attachment: fixed;
+}
+
+.nav-item li i {
+  color: #fff;
+}
+
+.details-main-heading {
+  font-family: product sans;
+  font-weight: bold;
+  text-align: center;
+  color: #171B2B;
+}
+
+.details-sub-heading {
+  font-family: product sans;
+  font-weight: bold;
+  font-size: 31px;
+  color: #171B2B;
+}
+
+.details-description {
+  font-family: circular std book;
+}
+
+.col.col-md-12.sub-details {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.card.custom-accordion-bar {
+  background: #fff;
+  /*border: 1px solid rgb(23,27,43);*/
+  color: rgb(23,27,43);
+}
+
+.mb-0 a {
+  color: rgb(23,27,43);
+  font-family: circular std book;
+  font-weight: initial;
+}
+
+.contact-text-input-field.details-sub-heading {
+  font-size: 22px;
+}
+
+.contact-form-field {
+  padding: 15px;
+  border-radius: 21px;
+  border: 2px solid rgb(35,39,54);
+  font-family: circular std book;
+}
+
+.col.col-md-6.field-small-sections {
+  display: flex;
+  flex-flow: column;
+  padding-left: 9%;
+  padding-right: 5%;
+  padding-top: 3%;
+}
+
+.contact-form-field:focus {
+  border: 0px;
+}
+
+.btn.btn-primary.upload-file-btn {
+  flex: 0;
+}
+
+.btn.btn-primary.upload-file-btn {
+  padding: 12px;
+  border-radius: 7px;
+  font-family: circular std book;
+  background: rgb(23,27,43);
+  font-size: 18px;
+}
+
+.btn.btn-primary.upload-file-btn:active {
+  color: rgb(23,27,43);
+  background: #fff;
+  box-shadow: 0px 3px 16px #000;
+}
+
+.btn.btn-primary.submit-btn-for-form-details {
+  padding: 11px 26px 11px 26px;
+  border-radius: 7px;
+  font-size: 18px;
+  background: #E12854;
+  font-family: circular std book;
+}
+
+.btn.btn-primary.submit-btn-for-form-details:active {
+  background: rgb(23,27,43);
+}
+
+@keyframes jumbotronanime {
+  0% {
+    background: linear-gradient(39deg,#1b2641,#ffff0052,#009688);
+  }
+  25% {
+    background: linear-gradient(89deg,#1b2641,#ffff0052,#009688);
+  }
+  50% {
+    background: linear-gradient(139deg,#1b2641,#ffff0052,#009688);
+  }
+  75% {
+    background: linear-gradient(189deg,#1b2641,#ffff0052,#009688);
+  }
+  100% {
+    background: linear-gradient(249deg,#1b2641,#ffff0052,#009688);
+  }
+}
+
+.nav-link i {
+  color: #fff;
+}
+
