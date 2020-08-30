@@ -26,11 +26,10 @@ const DarkFooter = () => {
                         </ul>
                     </div>
                     <div className="col-md-6 item text">
-                        <h3>Address</h3><p style={{ color: '#fff', fontFamily: 'circular std book' }}><i className="icon ion-android-pin"></i>  10 Woodbridge Center Drive,<br />
-Suite 425 Woodbridge, NJ 07095</p>
+                        <h3>Address</h3><p style={{ color: '#fff', fontFamily: 'circular std book' }}><i className="icon ion-android-pin"></i>Address Line 1,<br />Address Line 2</p>
                         <p style={{ color: '#fff', fontFamily: 'circular std book' }}><i className="icon ion-android-mail"></i>&nbsp; info@sonivaglobal.com<br /></p>
-                        <p style={{ color: '#fff', fontFamily: 'circular std book' }}><i className="fas fa-phone"></i>&nbsp;(866) 527-0387<br /></p>
-                        <p style={{ color: '#fff', fontFamily: 'circular std book' }}><i className="fas fa-phone"></i>&nbsp;(732) 596-0110<br /></p>
+                        <p style={{ color: '#fff', fontFamily: 'circular std book' }}><i className="fas fa-phone"></i>&nbsp;(+91) 8699113377<br /></p>
+                        <p style={{ color: '#fff', fontFamily: 'circular std book' }}><i className="fas fa-phone"></i>&nbsp;(+91) 8699113377<br /></p>
                     </div>
                     <div className="col item social"><a href="#"><i className="icon ion-social-facebook"></i></a><a href="#"><i className="icon ion-social-twitter"></i></a><a href="#"><i className="fab fa-snapchat-ghost"></i></a><a href="#"><i className="fab fa-instagram"></i></a></div>
                 </div>

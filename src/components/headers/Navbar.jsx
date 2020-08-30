@@ -3,7 +3,10 @@ import {
     NavLink
   } from "react-router-dom";
 
-const Navbar =(props)=>{
+   import {Navbar,Container,Nav} from 'react-bootstrap'
+   import './Navbar.css'
+
+const NavBar =(props)=>{
 
     return (<nav className="navbar navbar-light navbar-expand-md navigation-clean"
         style={{
@@ -43,4 +46,56 @@ const Navbar =(props)=>{
     </nav>)
 }
 
-export default Navbar;
+const CustomNavBar=(props)=>{
+    return(
+        <Container>
+            <Navbar
+            className="navigation-clean" 
+            style={{
+                left: 0,
+                right: 0,
+                top: 0,
+                zIndex: 2000
+            }} bg="light" variant="light" fixed="top">
+                  <Container className="ml-4">
+                  <Navbar.Brand>
+                        <NavLink className="navbar-brand" to='/'
+                            style={{ color: '#de3860', letterSpacing: '-1px', fontFamily: 'product sans', fontWeight: 'bold' }}>
+                        <i className="fas fa-plus-square" style={{ color: 'rgb(22,56,96' }} ></i>&nbsp;&nbsp;SONIVAGLOBAL
+                        </NavLink>
+                    </Navbar.Brand>
+                  </Container>
+                  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                  <Container>
+                  <Navbar.Collapse id="responsive-navbar-nav" style={{width:'100%'}}>
+                  <Nav className="justify-content-end" activeKey="/" >
+                  <Nav.Item>
+                  <NavLink className="nav-link mt-2" to="/solutions" >
+                        Our Solutions
+                    </NavLink>                                        
+                    </Nav.Item>
+                    <Nav.Item>
+                    <NavLink className="nav-link mt-2" to="/aboutus" >
+                        About Us
+                    </NavLink>                                        
+                    </Nav.Item>
+                    <Nav.Item>
+                    <NavLink className="nav-link mt-2" to="/contactus" >
+                        Contact Us
+                    </NavLink>                                        
+                    </Nav.Item>
+                    <Nav.Item>
+                    <NavLink className="nav-link mt-2" to="/careers" >
+                        Careers
+                    </NavLink>                                        
+                    </Nav.Item>
+                </Nav>
+                  </Navbar.Collapse>
+                  </Container>
+                                         
+            </Navbar>
+        </Container>
+   )
+}
+
+export default CustomNavBar;

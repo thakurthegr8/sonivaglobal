@@ -313,7 +313,7 @@ p {
   color: rgb(75,74,74);
 }
 
-.navbar-light .navbar-nav .nav-link {
+/* .navbar-light .navbar-nav .nav-link {
   background: rgb(218,216,216);
   border-radius: 60px;
 }
@@ -321,7 +321,7 @@ p {
 .navbar-light .navbar-nav .nav-link span {
   font-size: 17px;
   display: inline-flex;
-}
+} */
 
 .navbar-brand i {
   color: rgb(27,38,65);

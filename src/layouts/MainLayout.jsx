@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import '../assets/css/default.css'
 import '../assets/css/darkfooter.css'
 import '../assets/css/lightboxgallery.css'
@@ -12,12 +10,23 @@ import {
     BrowserRouter as Router,
     Switch,
     Route,
+    withRouter
   } from "react-router-dom";
 import DarkFooter from '../components/footers/DarkFooter.jsx'
 import NavBar from '../components/headers/Navbar.jsx'
 import Home from '../sections/Home'
 import Careers from '../sections/Careers'
+import About  from '../sections/About'
+import OurSolutions from '../sections/OurSolutions'
+import ContactUs from '../sections/ContactUs'
 import {createBrowserHistory} from 'history'
+const ScrollToTop = withRouter(({ children, location: { pathname } }) => {
+  React.useLayoutEffect(() => {
+    window.scrollTo(0, 0)
+  }, [pathname])
+
+  return children || null
+})
 
 
 
@@ -38,16 +47,23 @@ class MainLayout extends Component {
     render() {
         return (
             <div>
+                          
                 <Router history={createBrowserHistory()}>
+                <ScrollToTop>
                     <div>
                     <NavBar />
                     <Switch>
                     <Route exact path='/'  render={(props) => <Home {...props} />}/>
-                    <Route exact path='/careers'  render={(props) => <Careers {...props} />}/>                        
+                    <Route exact path='/careers'  render={(props) => <Careers {...props} />}/>
+                    <Route exact path='/aboutus' render={(props)=><About {...props}/>}/>
+                    <Route exact path='/solutions' render={(props)=><OurSolutions {...props}/>}/>
+                    <Route exact path='/contactus' render={(props)=><ContactUs {...props}/>}/>                  
                     </Switch>
                     <DarkFooter />
-                    </div>              
+                    </div>    
+                    </ScrollToTop>          
                 </Router>
+               
             </div>
         );
     }
